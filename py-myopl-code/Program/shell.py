@@ -6,7 +6,7 @@ from prompt_toolkit import PromptSession
 from prompt_toolkit.document import Document
 from prompt_toolkit.key_binding import KeyBindings
 
-genai.configure(api_key="AIzaSyBi5yIJCW5jCUv7Tpi52yZomwmVypovL4M")
+genai.configure(api_key="YOUR_API_KEY")
 
 def execute_write_code():
     filename = input("Enter the filename (without extension): ")
