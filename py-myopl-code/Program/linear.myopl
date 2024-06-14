@@ -1,0 +1,10 @@
+FUN join(elements, a)
+	VAR result = ""
+	VAR len1 = len(elements)
+
+	FOR i = 0 TO len1 THEN
+		IF elements/i == a THEN RETURN 1 
+	END
+END
+
+join(input_list(),input_int())

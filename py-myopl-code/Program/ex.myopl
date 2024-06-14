@@ -1,0 +1,27 @@
+FUN sum(l)
+   VAR SUM=0;
+   VAR i=0;
+   WHILE i<LEN(l) THEN; VAR SUM=SUM+l/i;VAR i=i+1 END
+   RETURN SUM
+END
+
+FUN sum1(l)
+   VAR SUM=0;
+   VAR i=0
+   FOR i=0 TO LEN(l) THEN VAR SUM=SUM+l/i
+   RETURN SUM
+END
+
+VAR a=INPUT_INT()
+VAR i=0
+
+VAR l=[]
+VAR SUM=0
+
+FOR i = 0 TO a THEN
+  VAR a1=INPUT_INT()
+  APPEND(l,a1)
+END
+
+PRINT(sum(l))
+PRINT(sum1(l))

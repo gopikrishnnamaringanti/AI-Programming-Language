@@ -1,0 +1,4 @@
+VAR a=10
+VAR b=80
+VAR c=a-b/trig(a+b,"tan")
+print(c)

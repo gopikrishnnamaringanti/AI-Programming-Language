@@ -1,0 +1,1 @@
+print(binary_search(input_list(),input()))
