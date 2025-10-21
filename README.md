@@ -48,3 +48,22 @@ MyOPL is ideal for **learning programming concepts**, **rapid prototyping**, and
 ```bash
 git clone <your-repo-url>
 cd MyOPL
+
+basic > writecode
+Enter the filename (without extension): example
+Enter your code below. Type 'SAVE' on a new line to finish.
+PRINT "Hello, World!"
+SAVE
+Code saved to example.myopl
+
+basic > editcode
+Editing (Ctrl-S to save, Ctrl-C to exit):
+# Modify code interactively
+
+basic > callai
+Enter prompt for AI: Add input handling and print square of input
+# AI generates code step-by-step
+
+basic > apifromfile example
+Enter additional prompt: Optimize this code
+# AI suggests improvements
