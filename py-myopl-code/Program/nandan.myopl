@@ -1,0 +1,4 @@
+VAR a=input()
+VAR a1=input()
+VAR a2=input_list()
+print(binary_search(a2,a)+binary_search(a2,a1))

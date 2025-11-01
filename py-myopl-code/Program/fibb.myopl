@@ -1,0 +1,7 @@
+VAR a=input_int()
+VAR l=[]
+append(l,0)
+append(l,1)
+FOR i=2 TO a THEN append(l,l/(i-1)+l/(i-2))
+print(l)
+

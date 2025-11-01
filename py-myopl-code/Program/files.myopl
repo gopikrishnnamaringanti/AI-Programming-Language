@@ -1,0 +1,6 @@
+VAR a=10
+VAR b=a+1
+VAR c=b+a
+print(a)
+print(b)
+print(c)

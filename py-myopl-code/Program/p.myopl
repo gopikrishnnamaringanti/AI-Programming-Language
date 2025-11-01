@@ -1,0 +1,3 @@
+VAR a=input_int();
+VAR b=input_int();
+print(a==b)
